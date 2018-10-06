@@ -1,0 +1,76 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Applicability/=Surround/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Shortcut/@EntryValue">nunitequal</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Text/@EntryValue">NUnit.Framework.Assert.AreEqual($valueA$.$valueName$, $valueB$.$valueName$&#xD;
+    , $"{nameof($valueA$.$valueName$)}");&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Field/=valueA/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Field/=valueA/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Field/=valueB/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Field/=valueB/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Field/=valueName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Field/=valueName/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Scope/=74A278E9BF386142B53D57114609A033/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Scope/=74A278E9BF386142B53D57114609A033/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F415A26E740C241BD46AAA17BB98605/Scope/=74A278E9BF386142B53D57114609A033/Type/@EntryValue">InCSharpExceptStringLiterals</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAEF2E1523BFFD47BDA5DBA2F0CD430C/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAEF2E1523BFFD47BDA5DBA2F0CD430C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAEF2E1523BFFD47BDA5DBA2F0CD430C/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAEF2E1523BFFD47BDA5DBA2F0CD430C/Shortcut/@EntryValue">forindex</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAEF2E1523BFFD47BDA5DBA2F0CD430C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAEF2E1523BFFD47BDA5DBA2F0CD430C/Text/@EntryValue">foreach (var item in $array$.Select((value, index) =&gt; new { value, index }))&#xD;
+{&#xD;
+	Console.WriteLine("value = {0}, index = {1}", item.value, item.index);&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAEF2E1523BFFD47BDA5DBA2F0CD430C/Field/=array/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAEF2E1523BFFD47BDA5DBA2F0CD430C/Field/=array/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAEF2E1523BFFD47BDA5DBA2F0CD430C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAEF2E1523BFFD47BDA5DBA2F0CD430C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAEF2E1523BFFD47BDA5DBA2F0CD430C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5040C0031942444B8E2907E63976938/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5040C0031942444B8E2907E63976938/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5040C0031942444B8E2907E63976938/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5040C0031942444B8E2907E63976938/Shortcut/@EntryValue">invaliderr</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5040C0031942444B8E2907E63976938/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5040C0031942444B8E2907E63976938/Text/@EntryValue">throw new System.InvalidOperationException($"想定外の値[{$value$}]が指定されました。");&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5040C0031942444B8E2907E63976938/Field/=value/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5040C0031942444B8E2907E63976938/Field/=value/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5040C0031942444B8E2907E63976938/Scope/=74A278E9BF386142B53D57114609A033/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5040C0031942444B8E2907E63976938/Scope/=74A278E9BF386142B53D57114609A033/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5040C0031942444B8E2907E63976938/Scope/=74A278E9BF386142B53D57114609A033/Type/@EntryValue">InCSharpExceptStringLiterals</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/IsBlessed/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/Shortcut/@EntryValue">nunitsource</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/Text/@EntryValue">/// &lt;summary&gt;&#xD;
+/// &lt;see cref="$TargetName$.$MethodName$"/&gt;をテストします。&#xD;
+/// &lt;/summary&gt;&#xD;
+/// &lt;returns&gt;&lt;/returns&gt;&#xD;
+[NUnit.Framework.TestCaseSourceAttribute(nameof($MethodName$TestCaseDatas))]&#xD;
+public bool $MethodName$()&#xD;
+{&#xD;
+    return $TargetName$.$MethodName$;&#xD;
+}&#xD;
+/// &lt;summary&gt;&#xD;
+/// &lt;see cref="$MethodName$"/&gt;のテストケースです。&#xD;
+/// &lt;/summary&gt;&#xD;
+/// &lt;returns&gt;&lt;/returns&gt;&#xD;
+public static System.Collections.Generic.IEnumerable&lt;NUnit.Framework.TestCaseData&gt; $MethodName$TestCaseDatas()&#xD;
+{&#xD;
+    yield return new NUnit.Framework.TestCaseData().Returns()&#xD;
+        .SetName($"{nameof($MethodName$)} X &gt; 0 , Y &gt; 0");&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/Field/=MethodName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/Field/=MethodName/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/Field/=TargetName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/Field/=TargetName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/Scope/=74A278E9BF386142B53D57114609A033/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/Scope/=74A278E9BF386142B53D57114609A033/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE86E6B68A6F1E49B20CA69436EB5ADC/Scope/=74A278E9BF386142B53D57114609A033/Type/@EntryValue">InCSharpExceptStringLiterals</s:String></wpf:ResourceDictionary>
